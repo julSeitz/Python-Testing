@@ -1,5 +1,5 @@
 import pytest
-from calc import add
+from calculator.calc import add
 
 def test_add():
     assert add(6, 8) == 14
